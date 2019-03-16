@@ -3,14 +3,12 @@ export const SUCCESS_DATA = "SUCCESS_DATA";
 export const ERROR_DATA = "ERROR_DATA";
 
 export const requestData = () => {
-  console.log("req");
   return {
     type: REQUEST_DATA
   };
 };
 
 export const successData = data => {
-  console.log("success");
   return {
     type: SUCCESS_DATA,
     payload: data
