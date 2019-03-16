@@ -16,7 +16,6 @@ export const successData = data => {
 };
 
 export const errorData = error => {
-  console.log("error");
   return {
     type: ERROR_DATA,
     error: error

@@ -20,18 +20,22 @@ class App extends React.Component {
           <div>loading...</div>
         ) : (
           <table>
-            <tr>
-              <th>Id</th>
-              <th>User Id</th>
-              <th>Title</th>
-            </tr>
-            {data.map((item, index) => (
-              <tr key={index}>
-                <td>{item.id}</td>
-                <td>{item.userId}</td>
-                <td>{item.title}</td>
+            <thead>
+              <tr>
+                <th>Id</th>
+                <th>User Id</th>
+                <th>Title</th>
               </tr>
-            ))}
+            </thead>
+            <tbody>
+              {data.map((item, index) => (
+                <tr key={index}>
+                  <td>{item.id}</td>
+                  <td>{item.userId}</td>
+                  <td>{item.title}</td>
+                </tr>
+              ))}
+            </tbody>
           </table>
         )}
       </section>
