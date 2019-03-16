@@ -1,0 +1,30 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+div {
+  font-size: 18px;
+  color: green;
+  font-weight: bold;
+  text-align: center;
+}
+table,
+tr,
+th,
+td {
+  border: 1px solid blue;
+  border-collapse: collapse;
+  color: rgb(219, 124, 124);
+  margin: 10px;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  color: blue;
+  font-weight: bold;
+  font-size: 20px;
+  font-style: italic;
+  text-align: center;
+}
